@@ -1,0 +1,7 @@
+__pycache__/
+*.log
+*.png
+data/
+results.tsv
+expts/
+.deepseek/
