@@ -35,6 +35,7 @@ LOOP FOREVER:
 
 ## After the loop
 
+after the loop is done:
 - Run `python progress.py`.
 - Update `suggestions.md` with new ideas.
 
