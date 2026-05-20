@@ -56,11 +56,9 @@ Fields:
 
 ## Track experiments
 
-Summary of each experiment should be appended to `results.tsv` (tab-separated).
+Summary of each experiment should be appended to `results.tsv`.
 
-**Never commit results.tsv.** Leave it untracked by git.
-
-Format — header + one row per experiment:
+1st Row is a header and the following rows are experiments.
 
 ```
 expt_id commit	metric	memory_gb	status	description
@@ -70,13 +68,15 @@ expt2   c3d4e5f	1.005000	44.0	discard	switch to GeLU
 expt3   d4e5f6g	NA	NA	crash	double model width (OOM)
 ```
 
-Columns:
-1. **expt_id** — unique identifier for the experiment
-1. **commit** — git commit hash (7 chars)
-2. **metric** — achieved metric (NA for crashes)
-3. **memory_gb** — peak VRAM in GB, rounded to .1f (NA for crashes)
-4. **status** — `keep` | `discard` | `crash`
-5. **description** — short text about what was tried
+Columns are separated by tabs.
+- **expt_id** — unique identifier for the experiment
+- **commit** — git commit hash (7 chars)
+- **metric** — achieved metric (NA for crashes)
+- **memory_gb** — peak VRAM in GB, rounded to .1f (NA for crashes)
+- **status** — `keep` | `discard` | `crash`
+- **description** — short text about what was tried
+
+**Never commit results.tsv.** Leave it untracked by git.
 
 ## Fast-fail rules
 
