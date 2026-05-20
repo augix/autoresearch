@@ -37,7 +37,7 @@ LOOP FOREVER:
 
 after the loop is done:
 - Run `python progress.py`.
-- Update `suggestions.md` with new ideas.
+- Update `suggestions.md` with what learnt and what to try next.
 
 ## Baseline
 
