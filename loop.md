@@ -30,7 +30,7 @@ LOOP FOREVER:
 - If metric improved → keep commit (branch advances).
 - If metric equal/worse → git reset --hard to previous commit.
 - Append results to `results.tsv`.
-- Append rationals and findings of the current experiment with details to `history.md`.
+- Append analysis of current experiment to `history.md`.
 ```
 
 ## After the loop
