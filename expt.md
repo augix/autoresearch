@@ -6,7 +6,6 @@ To optimize a metric defined in `eval.py` by training a model on the data define
 
 ## Constraints
 
-- `expt.py` is the only file you can edit. 
 - Do not modify `data.py` and `eval.py`.
 - `data.py` defines train dataset, val dataset, and val dataloader. `expt.py` should import these.
 - `eval.py` defines the metric to be optimized, and the evaluation function. `expt.py` should import these.
