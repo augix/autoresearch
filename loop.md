@@ -11,6 +11,7 @@ Before starting the loop:
 - **Prepare data**: run `python data.py`.
 - **Initialize results.tsv**: Create with just the header row (see format in `expt.md`).
 - **Initialize history.md**: to record experiment events.
+- **Do not modify**: loop.md, expt.md, data.py, eval.py.
 - **Confirm and start**.
 
 ## The loop
