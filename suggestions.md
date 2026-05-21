@@ -1,5 +1,5 @@
 try:
-- data normalization and augmentation.
+- data normalization and augmentation if appropriate.
 - Try more radical architectural changes first for big gain.
 - propose unusual architectural changes
 - Try combining previous near-misses.
